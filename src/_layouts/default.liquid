@@ -1,0 +1,30 @@
+---
+layout: navbar.liquid
+---
+
+{{content}}
+
+{% for item in items %}
+    {% capture oddOrEven -%} {% cycle 'odd', 'even' -%} {% endcapture -%} 
+    {% if oddOrEven == 'odd' -%}
+        <div class="w-screen" >
+            <div class="mt-16 text-start ml-16 w-1/2 float-left">
+                <p class="text-5xl poppins-regular -mb-5">{{item.title}}</p>
+                <p class="text-3xl poppins-lightitalic">{{item.title_mini}}</p>
+                <p class="text-2xl text-gray-600 mt-16">{{item.description}}</p>
+                <button class="text-xl bg-gray-200 w-72 h-16 mt-10 float-end rounded-lg poppins-regular" onclick="window.location.href='google.com'">{{item.button}}</button>
+            </div>
+            <i class="bi {{item.icon}} text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    {% else -%}
+        <div class=" w-full float-right mr-16">
+            <div class="mt-16 text-end ml-16 w-1/2 float-right">
+                <p class="text-5xl poppins-regular -mb-5">{{item.title}}</p>
+                <p class="text-3xl poppins-lightitalic">{{item.title_mini}}</p>
+                <p class="text-2xl text-gray-600 mt-16">{{item.description}}</p>
+                <button class="text-xl bg-gray-200 w-72 h-16 mt-10 float-start rounded-lg poppins-regular ml-12" onclick="window.location.href='google.com'">{{item.button}}</button>
+            </div>
+            <i class="bi {{item.icon}} text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    {% endif -%}
+{% endfor %}
