@@ -1,7 +1,7 @@
 class Learn {
     data() {
         return {
-            "permalink": "/learn",
+            "permalink": "/learn/",
             "layout": "default.liquid",
             "title": "Learn Mini",
             "title_mini": "i etudi a Mini",

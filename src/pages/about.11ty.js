@@ -5,7 +5,7 @@ class About {
         var globe = globes[Math.floor(Math.random() * globes.length)]
 
         return {
-            "permalink": "/about",
+            "permalink": "/about/",
             "layout": "default.liquid",
             "title": "About Mini",
             "title_mini": "de Mini",
