@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "eleventy --serve & npx tailwindcss -i src/css/input.css -o src/css/output.css --watch",
-    "build": "eleventy",
+    "build": "npx tailwindcss -i src/css/input.css -o src/css/output.css && eleventy",
     "bump": "npm --no-git-tag-version version"
   },
   "repository": {
@@ -31,7 +31,6 @@
     "not dead"
   ],
   "dependencies": {
-    "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.2.0",
-    "bootstrap-icons": "^1.11.3"
+    "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.2.0"
   }
 }

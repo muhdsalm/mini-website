@@ -7,7 +7,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/img");
   eleventyConfig.addPassthroughCopy("./src/favicon.svg");
   eleventyConfig.addPassthroughCopy("./src/css/output.css")
-  eleventyConfig.addPassthroughCopy("./node_modules/bootstrap-icons/font/")
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);                                                                                                                         
 
