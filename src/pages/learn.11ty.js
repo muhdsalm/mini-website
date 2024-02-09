@@ -23,7 +23,7 @@ class Learn {
                     "description": "If you are not the aforementioned linguist, you can read this article, which teaches Mini to normal people.",
                     "button": "Read",
                     "icon": "bi-mortarboard",
-                    "url": "https://jprogr.github.io/buku-name/"
+                    "url": "https://minilanguage.medium.com/learn-mini-in-20-minutes-8c4fa8093f8f"
                 },
                 {
                     "title": "Learn Mini through quizzes",
