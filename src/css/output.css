@@ -777,6 +777,48 @@ video {
   opacity: 0;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+
+  src: url('/fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+
+  src: url('/fonts/Poppins/Poppins-LightItalic.ttf');
+
+  font-weight: 300;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Poppins';
+
+  src: url('/fonts/Poppins/Poppins-Regular.ttf');
+
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins';
+
+  src: url('/fonts/Poppins/Poppins-Italic.ttf');
+
+  font-weight: 400;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Poppins';
+
+  src: url('/fonts/Poppins/Poppins-Bold.ttf');
+
+  font-weight: 700;
+}
+
 .montserrat-semibold {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -853,11 +895,11 @@ video {
     font-size: 3.052rem;
   }
 
-  .md\:text-xl {
-    font-size: 1.25rem;
-  }
-
   .md\:text-base {
     font-size: 1rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
   }
 }
