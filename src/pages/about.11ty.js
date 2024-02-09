@@ -40,7 +40,7 @@ class About {
                 {
                     "title": "Mini is <i>international</i>",
                     "title_mini": "Mini e <strong>ale-mundo</strong>",
-                    "description": "While languages like English are peculiar to one nationality, Mini aims to be the language that is not specific to any country, ethnicity, or race. Mini's members are from all over the world, including China, India, Spain, America, and more!",
+                    "description": "While languages like English are peculiar to one nationality, Mini aims to be the language that is not specific to any country, ethnicity, or race. Mini's members are from all over the world, including China, India, Mexico, America, and more!",
                     "button": "Visit the reddit",
                     "icon": "bi-globe-" + globe,
                     "url": "https://www.reddit.com/r/MiniLang/"

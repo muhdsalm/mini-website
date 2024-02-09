@@ -21,4 +21,19 @@
 {% endif %}
     
 </body>
+
+<script>
+    console.log(screen.width)
+    if (screen.width < 768) {
+        var disappearing = document.getElementsByClassName('disappearing')
+        console.log(disappearing)
+        var i = 0
+        while(i < disappearing.length) {
+            console.log(i)
+            disappearing.item(i).remove()
+            console.log('removing..')
+        }
+        console.log(document.getElementsByClassName('disappearing'))
+    }
+</script>
 </html>

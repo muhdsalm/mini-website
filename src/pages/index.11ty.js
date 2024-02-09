@@ -15,7 +15,7 @@ class Index{
                     "description": "The grammar of Mini can be learned in 20 minutes or less. Check it out!",
                     "button": "Learn Mini",
                     "icon": "bi-lightbulb",
-                    "link": "/learn"
+                    "url": "/learn"
                 },
                 {
                     "title": "View The Dictionary",
@@ -23,7 +23,7 @@ class Index{
                     "description": "Mini has around 1000 words. In comparison, English has around 171,000. You can use the [unofficial] Mini-English dictionary by JProgr!",
                     "button": "View the dictionary",
                     "icon": "bi-journal-bookmark-fill",
-                    "link": "https://jprogr.github.io/buku-name/"
+                    "url": "https://jprogr.github.io/buku-name/"
                 },
                 {
                     "title": "Read The Translations",
@@ -31,7 +31,7 @@ class Index{
                     "description": "Practice your Mini by reading and trying to understand the many texts that have been translated to Mini.",
                     "button": "Read the translations",
                     "icon": "bi-translate",
-                    "link": "/translations"
+                    "url": "/translations"
                 },
                 {
                     "title": "Contribute To The Wiki",
@@ -39,7 +39,7 @@ class Index{
                     "description": "Yup, Mini has a wiki. It's pretty barebones right now, so it would be great if someone contributed to it.",
                     "button": "Read the wiki",
                     "icon": "bi-globe",
-                    "link": "https://minilang.fandom.com/wiki/Mini_Wiki"
+                    "url": "https://minilang.fandom.com/wiki/Mini_Wiki"
                 },
                 {
                     "title": "Join The Community",
@@ -47,7 +47,7 @@ class Index{
                     "description": "Get help or talk to others by joining the Mini Discord server or the Mini subreddit.",
                     "button": "Join the community",
                     "icon": "bi-people",
-                    "link": "https://discord.gg/ajA6Z4VrkJ"
+                    "url": "https://discord.gg/ajA6Z4VrkJ"
                 }
         
             ]
