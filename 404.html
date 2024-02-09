@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <title>Page Not Found</title>
+    <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+</head>
+
+
+    <body class="self-center align-middle text-center items-center overflow-x-hidden overflow-y-hidden">
+        <div class=" text-left items-start fixed w-full">
+<ul class="bg-white py-3">
+    <li class="inline px-2 ps-4 tracking-tight montserrat-semibold align-middle"><a href="/"> <img src="/favicon.svg" alt="Home" class="inline size-9 align-middle"></a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle"><a href="/about"> About Mini </a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="/learn"> Learn Mini </a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="https://jprogr.github.io/buku-name"> Dictionary </a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="/translations"> Translations </a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="https://minilang.fandom.com/wiki/Mini_Wiki"> Wiki </a></li>
+
+    <li class="inline px-2 pe-4 align-middle float-right "> <a href="https://discord.gg/ajA6Z4VrkJ"><i class="bi bi-discord text-2xl align-middle"></i></a></li>
+    <li class="inline px-2 align-middle float-right "> <a href="https://www.reddit.com/r/MiniLang/"><i class="bi bi-reddit text-2xl align-middle"></i></a></li>
+</ul>
+<hr class="border-0 bg-gray-400" style="height: 0.5px;">
+</div>
+
+
+
+
+    <div class="w-full h-screen">
+        <img class="inline align-middle opacity-0" style="width: 15rem; height: 4rem; margin-top: 7%" id="logo2">
+        <h1 class="poppins-bold text-2xl md:text-5xl">Page Not Found</h1>
+        <h1 class="poppins-italic text-2xl md:text-5xl -mt-3 md:-mt-5">no kan deteki a note</h1>
+        <div class=" w-3/5 m-auto text-xl md:text-2xl poppins-regular text-gray-800 mt-10">
+        <p></p>
+        </div>
+        
+    </div>
+
+
+<script>
+    if (screen.width < 1200) {
+        try {
+            document.getElementById('logo').style.width = '7rem'
+            document.getElementById('logo').style.height = '7rem'
+            document.getElementById('logo').style.marginTop = '40%'
+        }
+        catch {}
+
+        try{
+            document.getElementById('logo2').style.width = '7rem'
+            document.getElementById('logo2').style.height = '1rem'
+            document.getElementById('logo2').style.marginTop = '40%'
+        }
+        catch {}
+    }
+</script>
+
+
+<div class=" text-center mt-40 bg-gray-200 poppins-regular text-xs md:text-base h-10 flex w-full items-center content-center justify-center"><p class="">This page and all materials pertaining to the Mini Language linked herein are under licensed under CC BY-SA 4.0 unless <a href="licensing">otherwise noted</a></p></div>
+    </body>    
+
+    
+</body>
+
+<script>
+    console.log(screen.width)
+    if (screen.width < 768) {
+        var disappearing = document.getElementsByClassName('disappearing')
+        console.log(disappearing)
+        var i = 0
+        while(i < disappearing.length) {
+            console.log(i)
+            disappearing.item(i).remove()
+            console.log('removing..')
+        }
+        console.log(document.getElementsByClassName('disappearing'))
+    }
+</script>
+</html>

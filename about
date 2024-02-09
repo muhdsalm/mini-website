@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <title>About Mini</title>
+    <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+</head>
+
+
+    <body class="self-center align-middle text-center items-center overflow-x-hidden">
+        <div class=" text-left items-start fixed w-full">
+<ul class="bg-white py-3">
+    <li class="inline px-2 ps-4 tracking-tight montserrat-semibold align-middle"><a href="/"> <img src="/favicon.svg" alt="Home" class="inline size-9 align-middle"></a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle"><a href="/about"> About Mini </a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="/learn"> Learn Mini </a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="https://jprogr.github.io/buku-name"> Dictionary </a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="/translations"> Translations </a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="https://minilang.fandom.com/wiki/Mini_Wiki"> Wiki </a></li>
+
+    <li class="inline px-2 pe-4 align-middle float-right "> <a href="https://discord.gg/ajA6Z4VrkJ"><i class="bi bi-discord text-2xl align-middle"></i></a></li>
+    <li class="inline px-2 align-middle float-right "> <a href="https://www.reddit.com/r/MiniLang/"><i class="bi bi-reddit text-2xl align-middle"></i></a></li>
+</ul>
+<hr class="border-0 bg-gray-400" style="height: 0.5px;">
+</div>
+
+
+
+
+    <div class="w-full h-screen">
+        <img class="inline align-middle opacity-0" style="width: 15rem; height: 4rem; margin-top: 7%" id="logo2">
+        <h1 class="poppins-bold text-2xl md:text-5xl">About Mini</h1>
+        <h1 class="poppins-italic text-2xl md:text-5xl -mt-3 md:-mt-5">de Mini</h1>
+        <div class=" w-3/5 m-auto text-xl md:text-2xl poppins-regular text-gray-800 mt-10">
+        <p>Mini was created to be a more suitable international language than English. It has succeeded in this endeavour, and is better for the reasons listed below.</p>
+        </div>
+        
+            <div class=" mt-16 text-xl text-gray-400"><i class="bi bi-chevron-double-down inline text-3xl align-middle"></i> <p class="inline align-middle poppins-regular">Scroll Down</p> <i class="bi bi-chevron-double-down inline text-3xl align-middle"></i></div>
+        
+    </div>
+
+
+<script>
+    if (screen.width < 1200) {
+        try {
+            document.getElementById('logo').style.width = '7rem'
+            document.getElementById('logo').style.height = '7rem'
+            document.getElementById('logo').style.marginTop = '40%'
+        }
+        catch {}
+
+        try{
+            document.getElementById('logo2').style.width = '7rem'
+            document.getElementById('logo2').style.height = '1rem'
+            document.getElementById('logo2').style.marginTop = '40%'
+        }
+        catch {}
+    }
+</script>
+
+
+    <p> </p>
+    <div class="w-full mt-20" >
+            <div class="text-start ml-16 w-3/4 md:w-1/2 float-left mt-16 inline-block">
+                <p class="text-3xl md:text-5xl poppins-regular -mb-5 leading-none">Mini is <i>small</i></p>
+                <p class="text-2xl md:text-3xl poppins-lightitalic mt-2 disappearing">Mini e <strong>mini</strong></p>
+                <p class="text-1xl md:text-2xl text-gray-600 mt-8 md:mt-16 poppins-regular">Mini's vocabulary only has about 1000 words total, and is split into two parts: <i>Mini Kore</i>, the 120 words that are necessary to speak Mini, and <i>Mini Mundo</i>, the remaining vocabulary that makes Mini easier to talk in.</p>
+                <button class="text-base md:text-xl bg-gray-200 w-48 md:w-72 h-12 md:h-16 mt-10 float-end rounded-lg poppins-regular" onclick="window.location.href='https://jprogr.github.io/buku-name/'">View the vocab</button>
+            </div>
+            <i class="bi bi-arrows-collapse disappearing text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    
+    <p> </p>
+    <div class=" w-full float-left md:float-right mr-16 mt-20">
+            <div class=" text-start md:text-end ml-16 w-3/4 md:w-1/2 float-left md:float-right mt-16">
+                <p class="text-3xl md:text-5xl poppins-regular -mb-5">Mini is <i>consistent</i></p>
+                <p class="text-2xl md:text-3xl poppins-lightitalic disappearing">Mini e <strong>sama-jura</strong></p>
+                <p class="text-1xl md:text-2xl text-gray-600 mt-8 md:mt-16 poppins-regular">Unlike English, in which a lot of the grammar is inconsistent and has exceptions, Mini has simple and easy to grasp grammar with almost no exception.</p>
+                <button class="text-base md:text-xl bg-gray-200 w-48 md:w-72 h-12 md:h-16 mt-10 md:float-start float-end rounded-lg poppins-regular" onclick="window.location.href='/learn'">Learn Mini</button>
+            </div>
+            <i class="bi bi-check2-all disappearing text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    
+    <p> </p>
+    <div class="w-full mt-20" >
+            <div class="text-start ml-16 w-3/4 md:w-1/2 float-left mt-16 inline-block">
+                <p class="text-3xl md:text-5xl poppins-regular -mb-5 leading-none">Mini is <i>easy</i></p>
+                <p class="text-2xl md:text-3xl poppins-lightitalic mt-2 disappearing">Mini e <strong>fasile</strong></p>
+                <p class="text-1xl md:text-2xl text-gray-600 mt-8 md:mt-16 poppins-regular">While normal languages can take months or even years to learn, you can learn to speak Mini comfortably in a matter of weeks!</p>
+                <button class="text-base md:text-xl bg-gray-200 w-48 md:w-72 h-12 md:h-16 mt-10 float-end rounded-lg poppins-regular" onclick="window.location.href='https://jprogr.github.io/mini-lessons'">Learn Mini</button>
+            </div>
+            <i class="bi bi-fast-forward disappearing text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    
+    <p> </p>
+    <div class=" w-full float-left md:float-right mr-16 mt-20">
+            <div class=" text-start md:text-end ml-16 w-3/4 md:w-1/2 float-left md:float-right mt-16">
+                <p class="text-3xl md:text-5xl poppins-regular -mb-5">Mini is <i>international</i></p>
+                <p class="text-2xl md:text-3xl poppins-lightitalic disappearing">Mini e <strong>ale-mundo</strong></p>
+                <p class="text-1xl md:text-2xl text-gray-600 mt-8 md:mt-16 poppins-regular">While languages like English are peculiar to one nationality, Mini aims to be the language that is not specific to any country, ethnicity, or race. Mini's members are from all over the world, including China, India, Mexico, America, and more!</p>
+                <button class="text-base md:text-xl bg-gray-200 w-48 md:w-72 h-12 md:h-16 mt-10 md:float-start float-end rounded-lg poppins-regular" onclick="window.location.href='https://www.reddit.com/r/MiniLang/'">Visit the reddit</button>
+            </div>
+            <i class="bi bi-globe-americas disappearing text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    
+    <p> </p>
+    <div class="w-full mt-20" >
+            <div class="text-start ml-16 w-3/4 md:w-1/2 float-left mt-16 inline-block">
+                <p class="text-3xl md:text-5xl poppins-regular -mb-5 leading-none">Mini is <i>pronouncable</i></p>
+                <p class="text-2xl md:text-3xl poppins-lightitalic mt-2 disappearing">Mini e <strong>pale-kan</strong></p>
+                <p class="text-1xl md:text-2xl text-gray-600 mt-8 md:mt-16 poppins-regular">English contains many sounds and combinations that may be hard to pronounce for some people. Mini tries to only use letters that most people can pronounce, and words follow a strict consonant-vowel structure for pronouncability.</p>
+                <button class="text-base md:text-xl bg-gray-200 w-48 md:w-72 h-12 md:h-16 mt-10 float-end rounded-lg poppins-regular" onclick="window.location.href='https://jprogr.github.io/buku-name'">Listen</button>
+            </div>
+            <i class="bi bi-megaphone disappearing text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    
+<div class=" text-center mt-40 bg-gray-200 poppins-regular text-xs md:text-base h-10 flex w-full items-center content-center justify-center"><p class="">This page and all materials pertaining to the Mini Language linked herein are under licensed under CC BY-SA 4.0 unless <a href="licensing">otherwise noted</a></p></div>
+
+    
+</body>
+
+<script>
+    console.log(screen.width)
+    if (screen.width < 768) {
+        var disappearing = document.getElementsByClassName('disappearing')
+        console.log(disappearing)
+        var i = 0
+        while(i < disappearing.length) {
+            console.log(i)
+            disappearing.item(i).remove()
+            console.log('removing..')
+        }
+        console.log(document.getElementsByClassName('disappearing'))
+    }
+</script>
+</html>

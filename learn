@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <title>Learn Mini</title>
+    <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+</head>
+
+
+    <body class="self-center align-middle text-center items-center overflow-x-hidden">
+        <div class=" text-left items-start fixed w-full">
+<ul class="bg-white py-3">
+    <li class="inline px-2 ps-4 tracking-tight montserrat-semibold align-middle"><a href="/"> <img src="/favicon.svg" alt="Home" class="inline size-9 align-middle"></a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle"><a href="/about"> About Mini </a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="/learn"> Learn Mini </a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="https://jprogr.github.io/buku-name"> Dictionary </a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="/translations"> Translations </a></li>
+    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="https://minilang.fandom.com/wiki/Mini_Wiki"> Wiki </a></li>
+
+    <li class="inline px-2 pe-4 align-middle float-right "> <a href="https://discord.gg/ajA6Z4VrkJ"><i class="bi bi-discord text-2xl align-middle"></i></a></li>
+    <li class="inline px-2 align-middle float-right "> <a href="https://www.reddit.com/r/MiniLang/"><i class="bi bi-reddit text-2xl align-middle"></i></a></li>
+</ul>
+<hr class="border-0 bg-gray-400" style="height: 0.5px;">
+</div>
+
+
+
+
+    <div class="w-full h-screen">
+        <img class="inline align-middle opacity-0" style="width: 15rem; height: 4rem; margin-top: 7%" id="logo2">
+        <h1 class="poppins-bold text-2xl md:text-5xl">Learn Mini</h1>
+        <h1 class="poppins-italic text-2xl md:text-5xl -mt-3 md:-mt-5">i etudi a Mini</h1>
+        <div class=" w-3/5 m-auto text-xl md:text-2xl poppins-regular text-gray-800 mt-10">
+        <p>Mini is very easy to learn! There are many ways to learn Mini, and you can find all of them linked below!</p>
+        </div>
+        
+            <div class=" mt-16 text-xl text-gray-400"><i class="bi bi-chevron-double-down inline text-3xl align-middle"></i> <p class="inline align-middle poppins-regular">Scroll Down</p> <i class="bi bi-chevron-double-down inline text-3xl align-middle"></i></div>
+        
+    </div>
+
+
+<script>
+    if (screen.width < 1200) {
+        try {
+            document.getElementById('logo').style.width = '7rem'
+            document.getElementById('logo').style.height = '7rem'
+            document.getElementById('logo').style.marginTop = '40%'
+        }
+        catch {}
+
+        try{
+            document.getElementById('logo2').style.width = '7rem'
+            document.getElementById('logo2').style.height = '1rem'
+            document.getElementById('logo2').style.marginTop = '40%'
+        }
+        catch {}
+    }
+</script>
+
+
+    <p> </p>
+    <div class="w-full mt-20" >
+            <div class="text-start ml-16 w-3/4 md:w-1/2 float-left mt-16 inline-block">
+                <p class="text-3xl md:text-5xl poppins-regular -mb-5 leading-none">The Foundational Document</p>
+                <p class="text-2xl md:text-3xl poppins-lightitalic mt-2 disappearing">base note</p>
+                <p class="text-1xl md:text-2xl text-gray-600 mt-8 md:mt-16 poppins-regular">If you know linguistics, or have dabbled in conlangs and know what is what, then you may want to read the foundational document.</p>
+                <button class="text-base md:text-xl bg-gray-200 w-48 md:w-72 h-12 md:h-16 mt-10 float-end rounded-lg poppins-regular" onclick="window.location.href='https://minilanguage.medium.com/mini-the-minimal-language-3f3710e28166'">Read</button>
+            </div>
+            <i class="bi bi-journal-richtext disappearing text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    
+    <p> </p>
+    <div class=" w-full float-left md:float-right mr-16 mt-20">
+            <div class=" text-start md:text-end ml-16 w-3/4 md:w-1/2 float-left md:float-right mt-16">
+                <p class="text-3xl md:text-5xl poppins-regular -mb-5">Learn Mini in 20 mins</p>
+                <p class="text-2xl md:text-3xl poppins-lightitalic disappearing">i etudi a Mini en 20 minute</p>
+                <p class="text-1xl md:text-2xl text-gray-600 mt-8 md:mt-16 poppins-regular">If you are not the aforementioned linguist, you can read this article, which teaches Mini to normal people.</p>
+                <button class="text-base md:text-xl bg-gray-200 w-48 md:w-72 h-12 md:h-16 mt-10 md:float-start float-end rounded-lg poppins-regular" onclick="window.location.href='https://minilanguage.medium.com/learn-mini-in-20-minutes-8c4fa8093f8f'">Read</button>
+            </div>
+            <i class="bi bi-mortarboard disappearing text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    
+    <p> </p>
+    <div class="w-full mt-20" >
+            <div class="text-start ml-16 w-3/4 md:w-1/2 float-left mt-16 inline-block">
+                <p class="text-3xl md:text-5xl poppins-regular -mb-5 leading-none">Learn Mini through quizzes</p>
+                <p class="text-2xl md:text-3xl poppins-lightitalic mt-2 disappearing">i etudi a Mini uti esamin</p>
+                <p class="text-1xl md:text-2xl text-gray-600 mt-8 md:mt-16 poppins-regular">If reading documents isn't for you (short as they may be) then you can learn Mini by reading conversations and answering questions based on them.</p>
+                <button class="text-base md:text-xl bg-gray-200 w-48 md:w-72 h-12 md:h-16 mt-10 float-end rounded-lg poppins-regular" onclick="window.location.href='https://jprogr.github.io/mini-lessons'">Take the quizzes</button>
+            </div>
+            <i class="bi bi-question-square disappearing text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    
+    <p> </p>
+    <div class=" w-full float-left md:float-right mr-16 mt-20">
+            <div class=" text-start md:text-end ml-16 w-3/4 md:w-1/2 float-left md:float-right mt-16">
+                <p class="text-3xl md:text-5xl poppins-regular -mb-5">The Mini cheatsheet</p>
+                <p class="text-2xl md:text-3xl poppins-lightitalic disappearing">Mini refere-note</p>
+                <p class="text-1xl md:text-2xl text-gray-600 mt-8 md:mt-16 poppins-regular">If you want a reference guide that fits into a page (yep that's how small Mini is) you can get take a look at the cheatsheet. (Note: Requires joining the Discord server)</p>
+                <button class="text-base md:text-xl bg-gray-200 w-48 md:w-72 h-12 md:h-16 mt-10 md:float-start float-end rounded-lg poppins-regular" onclick="window.location.href='https://discord.com/channels/1106636688115105792/1108861705917837493/1161576581844717570'">View</button>
+            </div>
+            <i class="bi bi-file-earmark disappearing text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    
+    <p> </p>
+    <div class="w-full mt-20" >
+            <div class="text-start ml-16 w-3/4 md:w-1/2 float-left mt-16 inline-block">
+                <p class="text-3xl md:text-5xl poppins-regular -mb-5 leading-none">Mini in my pocket</p>
+                <p class="text-2xl md:text-3xl poppins-lightitalic mt-2 disappearing">Mini en mi poke</p>
+                <p class="text-1xl md:text-2xl text-gray-600 mt-8 md:mt-16 poppins-regular">You can also use this for reference. It's a small booklet tiny enough to fit into your pocket. (Note: Requires joining the Discord Server)</p>
+                <button class="text-base md:text-xl bg-gray-200 w-48 md:w-72 h-12 md:h-16 mt-10 float-end rounded-lg poppins-regular" onclick="window.location.href='https://discord.com/channels/1106636688115105792/1136734640208621658'">View</button>
+            </div>
+            <i class="bi bi-calendar2 disappearing text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    
+    <p> </p>
+    <div class=" w-full float-left md:float-right mr-16 mt-20">
+            <div class=" text-start md:text-end ml-16 w-3/4 md:w-1/2 float-left md:float-right mt-16">
+                <p class="text-3xl md:text-5xl poppins-regular -mb-5">The Mini Dictionary</p>
+                <p class="text-2xl md:text-3xl poppins-lightitalic disappearing">Mini name-buku</p>
+                <p class="text-1xl md:text-2xl text-gray-600 mt-8 md:mt-16 poppins-regular">You can use the Mini dictionary to find out the meanings of all the words in Mini.</p>
+                <button class="text-base md:text-xl bg-gray-200 w-48 md:w-72 h-12 md:h-16 mt-10 md:float-start float-end rounded-lg poppins-regular" onclick="window.location.href='https://discord.com/channels/1106636688115105792/1136734640208621658'">View</button>
+            </div>
+            <i class="bi bi-journal-bookmark disappearing text-gray-600 mt-16 ml-16" style=" font-size: 300px"></i>
+        </div>
+    
+<div class=" text-center mt-40 bg-gray-200 poppins-regular text-xs md:text-base h-10 flex w-full items-center content-center justify-center"><p class="">This page and all materials pertaining to the Mini Language linked herein are under licensed under CC BY-SA 4.0 unless <a href="licensing">otherwise noted</a></p></div>
+
+    
+</body>
+
+<script>
+    console.log(screen.width)
+    if (screen.width < 768) {
+        var disappearing = document.getElementsByClassName('disappearing')
+        console.log(disappearing)
+        var i = 0
+        while(i < disappearing.length) {
+            console.log(i)
+            disappearing.item(i).remove()
+            console.log('removing..')
+        }
+        console.log(document.getElementsByClassName('disappearing'))
+    }
+</script>
+</html>
