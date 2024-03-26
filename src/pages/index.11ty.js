@@ -1,11 +1,11 @@
-class Index{
+class Index {
     data() {
         return {
             "permalink": "/",
             "layout": "default.liquid",
             "title": "The Minimal, International Language",
             "title_mini": "Mini, Ale-mundo Linga",
-            "description": "Mini is a language that wants to be the language of the world. It aims to achive this by having a very simple grammar and very few words. In fact, Mini only takes around 20 minutes to learn, and only has 1000 words. <a href=\"google.com\" class=\" text-gray-800\">Learn More</a>",
+            "description": "Mini is a language that wants to be the language of the world. It aims to achive this by having a very simple grammar and very few words. In fact, Mini only takes around 20 minutes to learn, and only has 1000 words. <a href=\"/about\" class=\" text-gray-800\">Learn More</a>",
             "icon": true,
             "noScroll": false,
             "items": [
@@ -49,7 +49,7 @@ class Index{
                     "icon": "bi-people",
                     "url": "https://discord.gg/ajA6Z4VrkJ"
                 }
-        
+
             ]
         }
     }
