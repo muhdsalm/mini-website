@@ -1,4 +1,4 @@
-module.exports = function (eleventyConfig) {
+module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/fonts/Poppins/Poppins-LightItalic.ttf");
   eleventyConfig.addPassthroughCopy("./src/fonts/Poppins/Poppins-Regular.ttf");
   eleventyConfig.addPassthroughCopy("./src/fonts/Poppins/Poppins-Italic.ttf");
@@ -6,9 +6,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/fonts/Montserrat/static/Montserrat-SemiBold.ttf");
   eleventyConfig.addPassthroughCopy("./src/img");
   eleventyConfig.addPassthroughCopy("./src/favicon.svg");
+  eleventyConfig.addPassthroughCopy("./src/favicon-dark.svg");
+
   eleventyConfig.addPassthroughCopy("./src/css/output.css")
 
-  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);                                                                                                                         
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   return {
     dir: {

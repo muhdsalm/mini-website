@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500pt" height="500pt" version="1.0" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 500) scale(.1 -.1)" fill="#fff">
+  <path d="m500 2500v-1880h365 365v1880 1880h-365-365v-1880z"/>
+  <path d="m2140 3440v-940h365 365v940l2 940h-365-365v-940z"/>
+  <path d="m3770 2500v-1880h365 365v1880 1880h-365-365v-1880z"/>
+ </g>
+ <g fill-opacity="0" stroke-opacity="0">
+  <path transform="scale(.75)" d="m67.709 332.9v-250.15h95.921v500.3h-95.921z"/>
+  <path transform="scale(.75)" d="m285.88 207.83v-125.07h95.921v250.15h-95.921z"/>
+  <path transform="scale(.75)" d="m504.06 332.9v-250.15h95.921v500.3h-95.921z"/>
+  <path transform="scale(.75)" d="m504.06 332.9v-250.15h95.921v500.3h-95.921z"/>
+  <path transform="scale(.75)" d="m504.06 332.9v-250.15h95.921v500.3h-95.921z"/>
+  <path transform="scale(.75)" d="m504.06 332.9v-250.15h95.921v500.3h-95.921z"/>
+  <path transform="scale(.75)" d="m504.06 332.9v-250.15h95.921v500.3h-95.921z"/>
+  <path transform="scale(.75)" d="m504.06 332.9v-250.15h95.921v500.3h-95.921z"/>
+ </g>
+ <path transform="scale(.75)" d="m67.709 332.9v-250.15h95.921v500.3h-95.921z" fill="#fff" stroke-opacity="0"/>
+</svg>

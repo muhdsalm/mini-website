@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +8,66 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>{{title}}</title>
     <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+    <script>
+        function refreshDarkMode() {
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark')
+                document.querySelector("link[rel~='icon']").href = "/favicon-dark.svg";
+                for (var v of document.getElementsByClassName('favicon')) {
+                    v.src = "/favicon-dark.svg"
+                }
+                //                document.body.classList.push("dark")
+                var colorSchemeSwitch = document.getElementById('color-scheme-switch')
+                colorSchemeSwitch.classList.remove("bi-sun")
+                colorSchemeSwitch.classList.add("bi-moon")
+            } else {
+                document.documentElement.classList.remove('dark')
+                document.querySelector("link[rel~='icon']").href = "/favicon.svg";
+                for (var v of document.getElementsByClassName('favicon')) {
+                    v.src = "/favicon.svg"
+                }
+                document.documentElement.style.setProperty('color-scheme', 'only light')
+                var colorSchemeSwitch = document.getElementById('color-scheme-switch')
+                colorSchemeSwitch.classList.remove("bi-moon")
+                colorSchemeSwitch.classList.add("bi-sun")
+            }
+        }
+        refreshDarkMode()
+
+        function switchColorSchemes() {
+            if (localStorage.theme === 'dark') {
+                localStorage.theme = 'light'
+            }
+            else {
+                localStorage.theme = 'dark'
+            }
+            refreshDarkMode()
+        }
+    </script>
 </head>
 
 {% if noScroll %}
-    <body class="self-center align-middle text-center items-center overflow-x-hidden overflow-y-hidden">
-        {{content}}
-    </body>    
+
+<body class="self-center align-middle text-center items-center overflow-x-hidden overflow-y-hidden dark:bg-black">
+    {{content}}
+</body>
 {% else %}
-    <body class="self-center align-middle text-center items-center overflow-x-hidden">
-        {{content}}
-{% endif %}
-    
+
+<body class="self-center align-middle text-center items-center overflow-x-hidden dark:bg-black">
+    {{content}}
+    {% endif %}
+
 </body>
 
 <script>
-    console.log(screen.width)
     if (screen.width < 768) {
         var disappearing = document.getElementsByClassName('disappearing')
-        console.log(disappearing)
         var i = 0
-        while(i < disappearing.length) {
-            console.log(i)
+        while (i < disappearing.length) {
             disappearing.item(i).remove()
-            console.log('removing..')
         }
-        console.log(document.getElementsByClassName('disappearing'))
     }
+    refreshDarkMode()
 </script>
+
 </html>

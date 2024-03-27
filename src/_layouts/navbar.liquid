@@ -2,18 +2,34 @@
 layout: footer.liquid
 ---
 <div class=" text-left items-start fixed w-full">
-<ul class="bg-white py-3">
-    <li class="inline px-2 ps-4 tracking-tight montserrat-semibold align-middle"><a href="/"> <img src="/favicon.svg" alt="Home" class="inline size-9 align-middle"></a></li>
-    <li class="inline px-2 tracking-tight montserrat-semibold align-middle"><a href="/about"> About Mini </a></li>
-    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="/learn"> Learn Mini </a></li>
-    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="https://jprogr.github.io/buku-name"> Dictionary </a></li>
-    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="/translations"> Translations </a></li>
-    <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing"><a href="https://minilang.fandom.com/wiki/Mini_Wiki"> Wiki </a></li>
+        <ul class="bg-white dark:bg-black py-3">
+                <li class="inline px-2 ps-4 tracking-tight montserrat-semibold align-middle dark:text-white"><a
+                                href="/"> <img src="/favicon.svg" alt="Home"
+                                        class="inline size-9 align-middle favicon"></a></li>
+                <li class="inline px-2 tracking-tight montserrat-semibold align-middle dark:text-white"><a
+                                href="/about"> About
+                                Mini </a></li>
+                <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing dark:text-white"><a
+                                href="/learn"> Learn
+                                Mini </a></li>
+                <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing dark:text-white"><a
+                                href="https://jprogr.github.io/buku-name"> Dictionary </a></li>
+                <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing dark:text-white"><a
+                                href="/translations">
+                                Translations </a></li>
+                <li class="inline px-2 tracking-tight montserrat-semibold align-middle disappearing dark:text-white"><a
+                                href="https://minilang.fandom.com/wiki/Mini_Wiki"> Wiki </a></li>
 
-    <li class="inline px-2 pe-4 align-middle float-right "> <a href="https://discord.gg/ajA6Z4VrkJ"><i class="bi bi-discord text-2xl align-middle"></i></a></li>
-    <li class="inline px-2 align-middle float-right "> <a href="https://www.reddit.com/r/MiniLang/"><i class="bi bi-reddit text-2xl align-middle"></i></a></li>
-</ul>
-<hr class="border-0 bg-gray-400" style="height: 0.5px;">
+                <li class="inline px-2 pe-4 align-middle float-right "> <a href="https://discord.gg/ajA6Z4VrkJ"><i
+                                        class="bi bi-discord text-2xl align-middle dark:text-white"></i></a></li>
+                <li class="inline px-2 align-middle float-right "> <a href="https://www.reddit.com/r/MiniLang/"><i
+                                        class="bi bi-reddit text-2xl align-middle dark:text-white"></i></a></li>
+                <li class="inline px-2 align-middle float-right "> <button onclick="switchColorSchemes()" class="bg-transparent"><i
+                                        id="color-scheme-switch"
+                                        class="bi bi-sun text-2xl align-middle dark:text-white"></i></a></li>
+
+        </ul>
+        <hr class="border-0 bg-gray-400" style="height: 0.5px;">
 </div>
 
 {{content}}

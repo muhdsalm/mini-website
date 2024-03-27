@@ -3,31 +3,40 @@ layout: "details.liquid"
 ---
 
 {% if icon %}
-    <div class="w-full h-screen">
-        <img src="/favicon.svg" alt="Home" class="inline align-middle" style="width: 15rem; height: 15rem; margin-top: 7%" id="logo">
-        <h1 class="poppins-bold text-2xl md:text-5xl">{{title}}</h1>
-        <h1 class="poppins-italic text-2xl md:text-5xl">{{title_mini}}</h1>
-        {% if noScroll == false %}
-            <div class=" mt-16 text-xl text-gray-400"><i class="bi bi-chevron-double-down inline text-3xl align-middle"></i> <p class="inline align-middle poppins-regular">Scroll Down</p> <i class="bi bi-chevron-double-down inline text-3xl align-middle"></i></div>
-        {% endif %}
+<div class="w-full h-screen">
+    <img src="/favicon.svg" alt="Home" class="inline align-middle favicon"
+        style="width: 15rem; height: 15rem; margin-top: 7%" id="logo">
+    <h1 class="poppins-bold text-2xl md:text-5xl dark:text-white">{{title}}</h1>
+    <h1 class="poppins-italic text-2xl md:text-5xl dark:text-white">{{title_mini}}</h1>
+    {% if noScroll == false %}
+    <div class=" mt-16 text-xl text-gray-400 dark:text-gray-600"><i
+            class="bi bi-chevron-double-down inline text-3xl align-middle"></i>
+        <p class="inline align-middle poppins-regular">Scroll Down</p> <i
+            class="bi bi-chevron-double-down inline text-3xl align-middle"></i>
     </div>
+    {% endif %}
+</div>
 
-    <div class=" w-3/5 m-auto text-xl md:text-2xl poppins-regular text-gray-600 -mt-20 md:mt-10">
-        <p>{{description}}</p>
-    </div>
+<div class=" w-3/5 m-auto text-xl md:text-2xl poppins-regular text-gray-600 -mt-20 md:mt-10 dark:text-gray-400">
+    <p>{{description}}</p>
+</div>
 
 {% else %}
-    <div class="w-full h-screen">
-        <img class="inline align-middle opacity-0" style="width: 15rem; height: 4rem; margin-top: 7%" id="logo2">
-        <h1 class="poppins-bold text-2xl md:text-5xl">{{title}}</h1>
-        <h1 class="poppins-italic text-2xl md:text-5xl -mt-3 md:-mt-5">{{title_mini}}</h1>
-        <div class=" w-3/5 m-auto text-xl md:text-2xl poppins-regular text-gray-800 mt-10">
+<div class="w-full h-screen">
+    <img class="inline align-middle opacity-0" style="width: 15rem; height: 4rem; margin-top: 7%" id="logo2">
+    <h1 class="poppins-bold text-2xl md:text-5xl dark:text-white">{{title}}</h1>
+    <h1 class="poppins-italic text-2xl md:text-5xl -mt-3 md:-mt-5 dark:text-white">{{title_mini}}</h1>
+    <div class=" w-3/5 m-auto text-xl md:text-2xl poppins-regular text-gray-800 dark:text-gray-200 mt-10">
         <p>{{description}}</p>
-        </div>
-        {% if noScroll == false %}
-            <div class=" mt-16 text-xl text-gray-400"><i class="bi bi-chevron-double-down inline text-3xl align-middle"></i> <p class="inline align-middle poppins-regular">Scroll Down</p> <i class="bi bi-chevron-double-down inline text-3xl align-middle"></i></div>
-        {% endif %}
     </div>
+    {% if noScroll == false %}
+    <div class=" mt-16 text-xl text-gray-400 dark:text-gray-600"><i
+            class="bi bi-chevron-double-down inline text-3xl align-middle"></i>
+        <p class="inline align-middle poppins-regular">Scroll Down</p> <i
+            class="bi bi-chevron-double-down inline text-3xl align-middle"></i>
+    </div>
+    {% endif %}
+</div>
 {% endif %}
 
 <script>
@@ -37,13 +46,13 @@ layout: "details.liquid"
             document.getElementById('logo').style.height = '7rem'
             document.getElementById('logo').style.marginTop = '40%'
         }
-        catch {}
+        catch { }
 
-        try{
+        try {
             document.getElementById('logo2').style.width = '7rem'
             document.getElementById('logo2').style.height = '1rem'
             document.getElementById('logo2').style.marginTop = '40%'
         }
-        catch {}
+        catch { }
     }
 </script>
