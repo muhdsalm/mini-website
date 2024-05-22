@@ -1,51 +1,38 @@
-# 11ty Netlify Jumpstart
+<div align="center">
+<img src=https://github.com/muhdsalm/mini-website/assets/73386616/6b38f0e7-6ea5-4bad-8810-2302a2a56fa8 width="200" height="200" align="center">
 
-> Created by Stephanie Eckles ([@5t3ph](https://twitter.com/5t3ph))
 
-Visit [11ty-netlify-jumpstart.netlify.app](https://11ty-netlify-jumpstart.netlify.app/) for all the feature details - or go ahead and [generate a new repo from the template](https://github.com/5t3ph/11ty-netlify-jumpstart/generate) to view the information locally.
+# A potential redesigned website for the Mini language</div>
+<br>
+<br>
 
-## Quick Start
 
-1. [Generate a repo from this template](https://github.com/5t3ph/11ty-netlify-jumpstart/generate) which will copy this project into your own new repo _if you are currently signed in to GitHub_. Alternatively, [visit the repo directly](https://github.com/5t3ph/11ty-netlify-jumpstart).
+## Mini
+According to the website:
+> Mini is an attempt to create the simplest naturalistic language for human communication conceived by S.C. Gruget in 2020.
 
-1. Once cloned, run `npm install` to install 11ty and other dependencies. Then run `npm start` to run 11ty in watch mode. Use `npm run build` to run a production version.
+> With simple phonetics, inflectionless grammar, and a global vocabulary of exactly 1,000 words, Mini is ideal for use as an international auxiliary language. 
 
-1. Open `src/_data/meta.js` and adjust the values to your details.
 
-1. Review the [styling documentation](https://5t3ph.github.io/html-sass-jumpstart/) for the included minimal Sass framework, particularly the theme variables, to quickly customize the starter.
+## This website
+This website is _not_ the official Mini website, although if the author gives this his attention it may one day be. For now, it's just a pet project. It's live at [a test URL](https://muhdsalm.github.io)
 
-1. Edit `src/index.njk` to change the home page - including changing the template type if desired - and then create content within `_pages` using any templating format you prefer to add content.
 
-1. Check out the [About page](https://11ty-netlify-jumpstart.netlify.app/about/) for expanded details on included features of this starter.
+## Technical details
+This website uses 11ty, which is a static site generator. This entire website is, in fact, fully static. The reason for this is that there's no reason for it to have any dynamic parts, and static websites have the fastest load times and are the most efficient.
 
-1. Review the [11ty documentation](https://11ty.dev) to more deeply apply customizations, including adding custom data sources and reviewing what template languages are available.
+## Building from source.
+To build this website, first clone the repo (or fork it if you want to contribute), then install all the dependencies, including 11ty, using the command
+```npm install```
 
-### Is Netlify hosting required?
+If you want to run 11ty in watch mode, for development, run
+```npm start```
+and navigate to https://localhost:8080
 
-It's not required, but highly recommended, and is also how the build process is setup to run.
-
-## Development Scripts
-
-**`npm start`**
-
-> Run 11ty with hot reload at localhost:8080
-
-**`npm run build`**
-
-> Production build includes minified, autoprefixed CSS and social preview image generation
-
-Use this as the "Publish command" if needed by hosting such as Netlify.
+If you want to build a production version, run:
+```npm run build```
 
 ## Feedback welcome!
 
-You can [file it as an issue](https://github.com/5t3ph/11ty-netlify-jumpstart/issues).
+You can [file it as an issue](https://github.com/muhdsalm/mini-website/issues).
 
-[![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/default-violet.png)](https://www.buymeacoffee.com/moderncss)
-
-## Changes in v2
-
-For those that have use this starter before, you should know the following changes:
-
-- removal of social media images - due to issues with packages for creating the images
-- removal of stylelint
-- update to use [@11tyrocks/eleventy-plugin-sass-lightningcss](https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-sass-lightningcss) for Sass processing
